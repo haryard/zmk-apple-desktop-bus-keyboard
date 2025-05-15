@@ -10,4 +10,8 @@ include:
   - board: seeeduino_xiao_ble
     shield: adbk
     artifact-name: adbk_fw
+  - board: seeeduino_xiao_ble
+    shield: adbk
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+    artifact-name: adbk_fw_with_logging
 
